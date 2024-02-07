@@ -28,6 +28,23 @@ The strategy adopted to achieve the project's objective is based on two main axe
 2. **Attribution of the Closest Model**: Determination of the closest model to identify the article's reference.
 
 
+## Files
+
+### utils 
+
+The `utils` directory contains utility scripts & modules used across other scripts and notebooks in this repository.
+
+### Data_exploration.ipynb
+
+`Data_exploration.ipynb` is a Jupyter notebook dedicated to initial data analysis and visualization. It covers steps such as loading data, checking for missing values, visualizing data distributions, and conducting preliminary statistical analysis. This notebook provides insights into the dataset before proceeding with further analysis or modeling tasks.
+
+### Segmentation.ipynb
+
+`Segmentation.ipynb` is a Jupyter notebook focused on image segmentation tasks. It contains code and explanations for segmenting images into different regions.
+
+### complete_pipeline_1.ipynb
+
+`complete_pipeline_1.ipynb`  contains a complete pipeline for classification and the search for the closest article models. This notebook includes model training, evaluation, and possibly integrating the results with some application, such as fetching the closest article related to the classification result. 
 
 ## Contribution
 
